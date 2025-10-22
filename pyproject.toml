@@ -1,0 +1,12 @@
+[project]
+name = "modelcontextprotocol-langchain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-groq>=1.0.0",
+    "langchain-mcp-adapters>=0.1.11",
+    "langgraph>=1.0.1",
+    "mcp>=1.18.0",
+]
